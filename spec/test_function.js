@@ -11,8 +11,8 @@ describe("Add", function () {
     });
 
     it("should add two numbers", function () {
-        let answer3 = add(4,5);
-        expect(answer3).toBe(9);
+        let answer3 = add(1,2);
+        expect(answer3).toBe(3);
     });
 
     it("should add multiple numbers", function () {

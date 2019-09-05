@@ -1,4 +1,4 @@
-function add(a,b){
+function add(){
     var sum=0;
         for(let x=0; x<arguments.length; x++){
         sum +=arguments[x];
@@ -14,10 +14,8 @@ function multiply(){
         return product;
     };
 
-multiply(3,4);
-
-
-
+console.log(multiply(3,4));
+console.log(add(3,4));
 
 
 
